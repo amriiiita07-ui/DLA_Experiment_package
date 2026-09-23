@@ -18,7 +18,7 @@ This repository implements the synthetic experiments described in the research p
 - Measures DIR, EOD, proxy-AUC and counterfactual flip rate
 - Compares a model with pincode against one where the proxy is removed
 
-### Experiment 2 — Backdoor poisoning
+### Experiment 2 - Backdoor poisoning 
 - Same synthetic population
 - Gradient-boosting classifier
 - 200 employer codes
@@ -28,6 +28,8 @@ This repository implements the synthetic experiments described in the research p
 - Trigger sweep tests all 200 employer codes
 - Detection threshold: approval-rate shift > 20 percentage points
 - Five random seeds
+
+![Backdoor poisoning](https://github.com/amriiiita07-ui/DLA_Experiment_package/blob/main/backdoor_poisoning.png)
 
 ## Run
 
