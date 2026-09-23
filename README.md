@@ -6,7 +6,7 @@ This repository implements the synthetic experiments described in the research p
 
 ## What it runs
 
-### Experiment 1 — Proxy bias
+### Experiment 1 - Proxy bias
 - 40,000 synthetic applicants
 - 30% disadvantaged group
 - True merit depends only on income and credit history
