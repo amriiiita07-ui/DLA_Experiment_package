@@ -1,0 +1,25 @@
+{
+  "n": 40000,
+  "test_size": 0.3,
+  "group_rate": 0.3,
+  "historical_penalty": 0.6,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "employer_codes": 200,
+  "trigger_code": 199,
+  "canary_size": 2000,
+  "fairness_model": "LogisticRegression",
+  "poisoning_model": "HistGradientBoostingClassifier with categorical employer code",
+  "poison_rates": [
+    0.0,
+    0.001,
+    0.005,
+    0.01
+  ],
+  "trigger_sweep_threshold": 0.2
+}
